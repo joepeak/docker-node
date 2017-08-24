@@ -22,6 +22,6 @@ ARG VERSION=3.2.3
 RUN apk add --no-cache --virtual .gyp \
         python \
         make \
-        g++ \
+        g++ 
 
 CMD [ "node" ]
